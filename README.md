@@ -1,0 +1,2 @@
+# QboxUninstaller
+Qbox Uninstaller Application
