@@ -46,6 +46,7 @@ namespace UninstallerTest
         private void no_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+            Application.Current.Shutdown();
         }
     }
 }

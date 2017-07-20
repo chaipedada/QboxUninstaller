@@ -9,7 +9,7 @@
     <Grid Height="233" VerticalAlignment="Top" Margin="0,0,2,-31">
         <Label Content="Do you want to uninstall Qbox Client?" HorizontalAlignment="Left" Margin="55,41,0,0" VerticalAlignment="Top" Height="30" Width="216"/>
         <Button x:Name="confirm" Content="Confirm" HorizontalAlignment="Left" Margin="396,157,0,0" VerticalAlignment="Top" Width="75" Click="confirm_Click" Background="ForestGreen" Foreground="White"/>
-        <Button Content="Cancel" HorizontalAlignment="Left" Margin="310,157,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="cancel" Content="Cancel" HorizontalAlignment="Left" Margin="310,157,0,0" VerticalAlignment="Top" Width="75" Click="cancel_Click"/>
         <RadioButton x:Name="uninstallClient" Content="Uninstall Qbox Client program only" HorizontalAlignment="Left" Margin="91,76,0,0" VerticalAlignment="Top" GroupName="choice"/>
         <RadioButton x:Name="uninstallAll" Content="Uninstall Qbox Client program and system data files" HorizontalAlignment="Left" Margin="91,109,0,0" VerticalAlignment="Top" GroupName="choice"/>
         <Image HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="102" Margin="10,10,0,0" Source="qboxlogo.JPG"/>
